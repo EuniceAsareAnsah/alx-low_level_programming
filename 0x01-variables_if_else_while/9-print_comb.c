@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints all combination of single digits
- * Return: Always 0
- */
+*main - prints all combination of single digits
+*Description: 'outputs a sentence with puts'
+*Return: Always 0
+*/
 int main(void)
 {
 int n;
