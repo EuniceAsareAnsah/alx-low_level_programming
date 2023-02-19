@@ -1,10 +1,12 @@
-#include <stdlib.h>
+#include <stdio.h>
 /**
-*main - A c program that print a line to a standard error
-*Return: 0 (Success)
+* main - Entry point
+* Description: 'the program's description'
+* Return: 0 (Success)
 */
 int main(void)
 {
-system("echo 'and that piece of art is useful\"- Dora Korpar, 2015-10-19");
+char st[] = "2015-10-19";
+fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, %s\n", st);
 return (1);
 }
