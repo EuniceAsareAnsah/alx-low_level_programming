@@ -4,7 +4,7 @@
 *description: 'prints alphabets'
 *Return: void
 */
-void print_alphaber_x10(void)
+void print_alphabet_x10(void)
 {
 int i;
 char a = 'a';
