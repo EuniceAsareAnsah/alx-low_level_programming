@@ -10,7 +10,7 @@ void print_times_table(int n)
 int a, b;
 for (a = 0 ; a <= n ; a++)
 {
-for (b = 0 ; d <= n ; b++)
+for (b = 0 ; b <= n ; b++)
 {
 int ans = a * b;
 if (b > 0)
