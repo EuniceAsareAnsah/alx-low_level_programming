@@ -1,19 +1,19 @@
 #include "main.h"
 /**
 *print_times_table - a custom function
-*@c: an integer
+*@n: an integer
 *Description: prints the input times table, starting with 0
 *Return: Always 0
 */
-void print_times_table(int c)
+void print_times_table(int n)
 {
-int b, d;
-for (b = 0 ; b <= c ; b++)
+int a, b;
+for (a = 0 ; a <= n ; a++)
 {
-for (d = 0 ; d <= c ; d++)
+for (b = 0 ; d <= n ; b++)
 {
-int ans = b * d;
-if (d > 0)
+int ans = a * b;
+if (b > 0)
 {
 if (ans <= 9)
 {
