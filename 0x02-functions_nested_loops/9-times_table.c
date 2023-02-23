@@ -1,18 +1,18 @@
 #include "main.h"
 /**
-*times_tables - a custom function
+*times_table - a custom function
 *Description: prints the 9 times table, starting with 0
 *Return: always 0
 */
-void times_tables(void)
+void times_table(void)
 {
-int c, d;
-for (c = 0 ; c < 10 ; c++)
+int a, b;
+for (a = 0 ; a < 10 ; a++)
 {
-for (d = 0 ; d <= 9 ; d++)
+for (b = 0 ; b <= 9 ; b++)
 {
-int ans = c * d;
-if (d > 0)
+int ans = a * b;
+if (b > 0)
 {
 if (ans <= 9)
 {
