@@ -5,7 +5,7 @@
 *Description: prints the input times table, starting with 0
 *Return: Always 0
 */
-void print_times_table(int n);
+void times_table(int n)
 {
 int a, b;
 for (a = 0 ; a <= n ; a++)
