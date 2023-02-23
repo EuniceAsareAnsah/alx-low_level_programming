@@ -14,6 +14,5 @@ _putchar('0' + -last);
 return (-last);
 }
 _putchar('0' + b & 10);
-}
 return (b & 10);
 }
