@@ -1,22 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * _puts - prints a string, followed by a new line.
- * @str: input string.
- * Return: no return.
- */
-void _puts(char *str)
-{
-int count = 0;
+* free_grid - frees a 2 dimensional grid previously created by alloc_grid
+* @grid: a pointer to pointer
+* @height: height of the grid
+**/
 
-while (count >= 0)
+void free_grid(int **grid, int height)
 {
-if (str[count] == '\0')
-{
-_putchar('\n');
-break;
-}
-_putchar(str[count]);
-count++;
-}
+int i;
+
+if (grid == NULL)
+return;
+for (i = 0; i < height; i += 1)
+free(grid[i]);
+free(grid);
 }
